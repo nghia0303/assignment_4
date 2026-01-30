@@ -1,0 +1,35 @@
+# --- Python Bytecode (File rác khi chạy code) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Cấu hình của PyCharm (Rất quan trọng, không nên đẩy lên) ---
+.idea/
+*.iml
+
+# --- Môi trường ảo (Virtual Environments) ---
+venv/
+.venv/
+env/
+ENV/
+bin/
+Scripts/
+
+# --- Biến môi trường & Bảo mật (Tuyệt đối không đẩy file chứa key/pass) ---
+.env
+.env.local
+config.py
+
+# --- Các file hệ thống (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Build & Distribution (Nếu đóng gói thư viện) ---
+build/
+dist/
+*.egg-info/
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
